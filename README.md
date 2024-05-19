@@ -5,19 +5,19 @@
 In this work, we explored hybrid CNN-RNN and LSTM-based architectures for learning the Hodge numbers of CICY4. In total, we trained the following 12 models (the training was done fully on Kaggle using the P100 GPU unit). 
 
 | Models       | # params ($\times 10^6$) | Total training time (hours)|
-| ------------- |:-------------:| 
+| ------------- |:-------------:| -------------:| 
 | CNN-GRU-384 |  2.222  |4.16|
 | CNN-GRU-416 | 2.488 |  | 4.66|
 | ResNet-GRU-256 |1.329 |  3.42|
-\text{ResNet-GRU-400} | 2.337 | 5.86 |
-\text{CNN-LSTM-256}  | 1.547  | 4.00|
-\text{CNN-LSTM-384} |  2.674   | 4.77
-\text{CNN-LSTM-400}| 2.842  | 6.37|
-\text{CNN-LSTM-416}| 3.017  |  8.82|
-\text{LSTM-400} |  2.373 |  3.77
-\text{LSTM-424} |   2.637 | 4.17 
-\text{LSTM-448} |   2.915| 4.83
-\text{LSTM-456} | 3.011 | 4.45 |
+|ResNet-GRU-400| 2.337 | 5.86 |
+|CNN-LSTM-256| 1.547  | 4.00|
+|CNN-LSTM-384 |  2.674   | 4.77
+|CNN-LSTM-400| 2.842  | 6.37|
+|CNN-LSTM-416| 3.017  |  8.82|
+|LSTM-400 |  2.373 |  3.77
+|LSTM-424 |   2.637 | 4.17 
+|LSTM-448|   2.915| 4.83
+|LSTM-455 | 3.011 | 4.45 |
 
 The organization of this repo is as follows:
   - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
