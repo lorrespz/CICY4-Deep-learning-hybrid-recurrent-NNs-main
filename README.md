@@ -4,6 +4,12 @@
 
 In this work, we explored hybrid CNN-RNN and LSTM-based architectures for learning the Hodge numbers of CICY4. In total, we trained the following 12 models (the training was done fully on Kaggle using the P100 GPU unit). 
 
+| Models       | # params       | $h^{1,1}$ | $h^{2,1}$ | $h^{3,1}$ | $h^{2,2}$ | 
+| ------------- |:-------------:| -----:|-----:|-----:|-----:|-----:|
+| col 3 is      | right-aligned | $1600 |      |      |      |      |
+| col 2 is      | centered      |   $12 |      |      |      |      |
+| zebra stripes | are neat      |    $1 |      |      |      |      |
+
 The organization of this repo is as follows:
   - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
   - The trained models are saved in the folder 'Results_p2_Trained_models'.
