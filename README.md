@@ -22,7 +22,7 @@ In this work, we explored hybrid CNN-RNN and LSTM-based architectures for learni
 Ensembles of the best models were also formed. 
 |Ensemble 1| Ensemble 2| Ensemble 3| 
 | :-------------: |:-------------:| :-------------:| 
-|LSTM-448} ,CNN-LSTM-400$|$LSTM-448, STM-424,CNN-LSTM-400|LSTM-448,LSTM-424,CNN-LSTM-400,CNN-LSTM-384$|
+|LSTM-448} \\ CNN-LSTM-400|$LSTM-448, STM-424,CNN-LSTM-400|LSTM-448,LSTM-424,\\ CNN-LSTM-400,CNN-LSTM-384|
 
 The organization of this repo is as follows:
   - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
