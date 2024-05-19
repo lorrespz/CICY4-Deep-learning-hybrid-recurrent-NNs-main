@@ -6,10 +6,10 @@ In this work, we explored hybrid CNN-RNN and LSTM-based architectures for learni
 
 | Models       | # params       | $h^{1,1}$ | $h^{2,1}$ | $h^{3,1}$ | $h^{2,2}$ | 
 | ------------- |:-------------:| -----:|-----:|-----:|-----:|-----:|
-| col 3 is      | right-aligned | $1600 |      |      |      |      |
-| col 2 is      | centered      |   $12 |      |      |      |      |
-| zebra stripes | are neat      |    $1 |      |      |      |      |
-
+| col 3 is      | right-aligned | $1600 |  X     |   X   |   X   |     X |
+| col 2 is      | centered      |   $12 |   X   |   X   |    X  |    X  |
+| zebra stripes | are neat      |    $1 |    X  |   X   |   X   |    X  |
+X
 The organization of this repo is as follows:
   - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
   - The trained models are saved in the folder 'Results_p2_Trained_models'.
