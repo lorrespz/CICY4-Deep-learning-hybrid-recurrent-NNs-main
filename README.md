@@ -19,10 +19,15 @@ In this work, we explored hybrid CNN-RNN and LSTM-based architectures for learni
 |LSTM-448|  2.915| 4.83|
 |LSTM-455 | 3.011 | 4.45 |
 
+
 Ensembles of the best models were also formed. 
-|Ensemble 1| Ensemble 2| Ensemble 3| 
-| :-------------: |:-------------:| :-------------:| 
-|$\begin{matrix} LSTM-448 \\\ CNN-LSTM-400 \end{matrix}$|LSTM-448, LSTM-424, CNN-LSTM-400|LSTM-448, LSTM-424, CNN-LSTM-400, CNN-LSTM-384|
+|Ensemble | | 
+| :-------------: |:-------------:| 
+|Ensemble 1| LSTM-448, CNN-LSTM-400 |
+|Ensemble 2| LSTM-448, LSTM-424, CNN-LSTM-400|
+|Ensemble 3| LSTM-448, LSTM-424, CNN-LSTM-400, CNN-LSTM-384|
+|Ensemble 4| LSTM-448, LSTM-424|
+
 
 The organization of this repo is as follows:
   - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
@@ -36,7 +41,8 @@ The data used for the training of all models were prepared in the following Kagg
 The train, validation and test sets can be downloaded from the ouptut of the above notebook. 
 
 ## Training results
-
+At the training ratio of 72%, our best performing individual model is CNN-LSTM-400, which obtains the accuracies of 99.74%, 98.07%, 95.19%, 81.01%, respectively, for h(1,1), h(2,1), h(3,1) and h(2,2). 
+Our second best performing individual model is LSTM-448, which obtains the accuracy of 99.74%, 97.51%, 94.24%, and 78.63%.
 The performances of the 12 models can be seen the figure below. 
 
 <img width="500px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_4x_accuracies_all.png" alt="Train and test accuracies of the 12 models considered in this work"/>
