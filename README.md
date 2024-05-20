@@ -17,7 +17,7 @@
 |LSTM-400 |  2.373 |  3.77|
 |LSTM-424 |   2.637 | 4.17 |
 |LSTM-448|  2.915| 4.83|
-|LSTM-455 | 3.011 | 4.45 |
+|LSTM-456 | 3.011 | 4.45 |
 
 The organization of this repo is as follows:
   - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
@@ -40,7 +40,7 @@ https://www.kaggle.com/datasets/lorresprz/calabi-yau-cicy-4-folds
 At the training ratio of 72%, our best performing individual model is CNN-LSTM-400, which obtains the accuracies of 99.74%, 98.07%, 95.19%, 81.01%, respectively, for $h^{(1,1)}, h^{(2,1)}, h^{(3,1)}, h^{(2,2)}$. 
 Our second best performing individual model is LSTM-448, which obtains the accuracy of 99.74%, 97.51%, 94.24%, and 78.63%. The third best-performing model is LSTM-424, with the accuracies of 99.56%, 97.07%, 93.19%, 74.47%. 
 
-The following ensembles of several top-performing models were formed 
+The following ensembles of several top-performing models were formed. Some of these ensembles were found to outperform CNN-LSTM-400. In particular, Ensemble 2 attains the accuracies of of 99.8%, 98.4%, 95.8%, 83%.
 |          |        |
 | :-------------: |:-------------:| 
 |Ensemble 1| LSTM-448, CNN-LSTM-400 |
@@ -53,5 +53,5 @@ The performances of the 12 models plus the four ensembles, ranked in terms of th
 <img width="1000px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_accuracies_all.png"  alt="Test accuracies" />
 
 ## Inference
-The saved models, stored in 'Results_p2_Trained_models', can be downloaded and used for inference on the test dataset. The example notebook ' ' demonstrates how to load and use a saved model for inference. 
+The saved models, stored in 'Results_p2_Trained_models', can be downloaded and used for inference on the test dataset. The example notebook ' ' demonstrates how to load and use all 12 saved model for inference. 
 
