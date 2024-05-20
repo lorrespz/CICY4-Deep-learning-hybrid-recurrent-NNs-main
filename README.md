@@ -35,6 +35,7 @@ At the training ratio of 72%, our best performing individual model is CNN-LSTM-4
 Our second best performing individual model is LSTM-448, which obtains the accuracy of 99.74%, 97.51%, 94.24%, and 78.63%. The third best-performing model is LSTM-424, with the accuracies of 99.56%, 97.07%, 93.19%, 74.47%. 
 
 The following ensembles of several top-performing models were formed 
+|          |        |
 | :-------------: |:-------------:| 
 |Ensemble 1| LSTM-448, CNN-LSTM-400 |
 |Ensemble 2| LSTM-448, LSTM-424, CNN-LSTM-400|
@@ -44,6 +45,10 @@ The following ensembles of several top-performing models were formed
 The performances of the 12 models plus the four ensembles, ranked in terms of the test accuracies of the four individual Hodge numbers are shown in the figure below.
 
 <img width="500px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_accuracies_all.png"  alt="Test accuracies\>
+
+The performances of the 12 models plus the four ensembles in terms of train and test accuracies can be seen the figure below. 
+
+<img width="500px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_4x_accuracies_all.png" alt="Train and test accuracies of the 12 models considered in this work"/>
 
 ## Inference
 The saved models, stored in 'Results_p2_Trained_models', can be downloaded and used for inference on the test dataset. The example notebook ' ' demonstrates how to load and use a saved model for inference. 
