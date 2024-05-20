@@ -46,10 +46,6 @@ The performances of the 12 models plus the four ensembles, ranked in terms of th
 
 <img width="1000px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_accuracies_all.png"  alt="Test accuracies" />
 
-The performances of the 12 models plus the four ensembles in terms of train and test accuracies can be seen the figure below. 
-
-<img width="500px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_4x_accuracies_all.png" alt="Train and test accuracies of the 12 models considered in this work"/>
-
 ## Inference
 The saved models, stored in 'Results_p2_Trained_models', can be downloaded and used for inference on the test dataset. The example notebook ' ' demonstrates how to load and use a saved model for inference. 
 
