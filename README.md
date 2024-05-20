@@ -24,11 +24,15 @@ The organization of this repo is as follows:
   - The trained models are saved in the folder 'Results_p2_Trained_models'.
   - Some figures from the arXiv paper are stored in the folder 'Resutls_p1_Figures'.
 
-## Data
+## Processed data 
 The data used for the training of all models were prepared in the following Kaggle notebook:
- [url here]
- 
+https://www.kaggle.com/code/lorresprz/cicy4-data-processing
 The train, validation and test sets can be downloaded from the ouptut of the above notebook. 
+
+The original data set was introduced in the paper "Topological Invariants and Fibration Structure of Complete Intersection Calabi-Yau Four-Folds", arXiv:1405.2073,
+and can be downloaded in either text or Mathematic file format from:
+https://www-thphys.physics.ox.ac.uk/projects/CalabiYau/Cicy4folds/index.html
+A conveniently created dataset using npy file can be obtained by running the script  'create_data.py' from https://github.com/robin-schneider/cicy-fourfolds
 
 ## Training results
 At the training ratio of 72%, our best performing individual model is CNN-LSTM-400, which obtains the accuracies of 99.74%, 98.07%, 95.19%, 81.01%, respectively, for $h^{(1,1)}, h^{(2,1)}, h^{(3,1)}, h^{(2,2)}$. 
