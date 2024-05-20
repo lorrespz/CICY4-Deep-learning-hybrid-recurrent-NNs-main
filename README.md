@@ -42,7 +42,8 @@ The following ensembles of several top-performing models were formed
 |Ensemble 4| LSTM-448, LSTM-424|
 
 The performances of the 12 models plus the four ensembles, ranked in terms of the test accuracies of the four individual Hodge numbers are shown in the figure below.
-<img width="500px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_accuracies_all.png"\>
+
+<img width="500px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_accuracies_all.png"  alt="Test accuracies\>
 
 The performances of the 12 models plus the four ensembles in terms of train and test accuracies can be seen the figure below. 
 
