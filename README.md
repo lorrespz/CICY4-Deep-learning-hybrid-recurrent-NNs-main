@@ -46,18 +46,22 @@ The following ensembles of several top-performing models were formed. Some of th
 |Ens-3| LSTM-448, LSTM-424, CNN-LSTM-400, CNN-LSTM-384|
 |Ens-4| LSTM-448, LSTM-424|
 
+The best ensemble is Ens-3 with the achieved accuracies of 99.80%, 98.40%, 95.80%, 83.02%.
+
 The performances of the 12 models plus the four ensembles, ranked in terms of the test accuracies of the four individual Hodge numbers are shown in the figure below.
 
 <img width="800px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_test_accuracies_all.png"  alt="Test accuracies" />
 
 ## Training results (80% data split)
-With the enlarged 80\% dataset, only the top three models, CNN-LSTM-400, LSTM-448, LSTM-424, from the first round of training (using 72\% data split) were retrained. Several ensembles of these three models (listed below) were formed as well.
+With the enlarged 80\% dataset, only the top three models, CNN-LSTM-400, LSTM-448, LSTM-424, from the first round of training (using 72\% data split) were retrained. Several ensembles of these three models (listed below) were formed as well. 
 
 |          |        |
 | :-------------: |:-------------:| 
 |En-80-1| LSTM-448, LSTM-424|
 |Ens-80-2| LSTM-448, CNN-LSTM-400|
 |Ens-80-3| LSTM-448, LSTM-424, CNN-LSTM-400|
+
+The best performing model is LSTM-448 (99.85%, 98.66%, 96.26%, 84.77%), and the best ensemble is Ens-80-3 (99.88%, 98.91%, 96.96%, 86.78%).
 
 The accuracy rankings for all models, including the ensembles are shown in the Figure below.
 
