@@ -21,10 +21,6 @@
 
 The top three models resulting from this first round of training were retrained at 80\% data split. 
 
-The organization of this repo is as follows:
-  - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
-  - The trained models are saved in the folder 'Results_p2_Trained_models'.
-  - Some figures from the arXiv paper are stored in the folder 'Resutls_p1_Figures'.
 
 ## Processed data 
 The original data set was introduced in the paper "Topological Invariants and Fibration Structure of Complete Intersection Calabi-Yau Four-Folds", arXiv:1405.2073,
@@ -66,5 +62,12 @@ With the enlarged 80\% dataset, only the top three models, CNN-LSTM-400, LSTM-44
 The accuracy rankings for all models, including the ensembles are shown in the Figure below.
 
 <img width="800px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Test80_accuracies_all.png"  alt="Test accuracies" />
+
+## Structure of the repository
+
+The organization of this repo is as follows:
+  - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
+  - The trained models are saved in the folder 'Results_p2_Trained_models'.
+  - Some figures from the arXiv paper are stored in the folder 'Resutls_p1_Figures'.
 
 
