@@ -73,6 +73,6 @@ The organization of this repo is as follows:
   - The training notebooks for the 12 models are contained in the folders 'Models_CNN-RNN-hybrid' and 'Models_LSTM-based'.
   - The trained models are saved in the folder 'Results_p2_Trained_models'.
   - Some figures from the arXiv paper are stored in the folder 'Resutls_p1_Figures'.
-  - The folder 'data-results-processing' contains the inference notebook ('cicy4-training-results-all-models.ipynb') as well as the notebook (cicy4-data-training-curves-processing.ipynb) for plotting the training curves in the paper. 
+  - The folder 'data-results-processing' contains the inference notebook ('cicy4-training-results-all-models.ipynb') as well as the notebook (cicy4-data-training-curves-processing.ipynb) for plotting the training curves in the paper. The notebook 'cicy4-training-results-all-models.ipynb' is also available on Kaggle (https://www.kaggle.com/code/lorresprz/cicy4-training-results-inference-all-models) and linked to the Kaggle dataset (https://www.kaggle.com/datasets/lorresprz/calabi-yau-cicy-4-folds).
 
 
