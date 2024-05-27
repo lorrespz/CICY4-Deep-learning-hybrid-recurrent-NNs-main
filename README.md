@@ -38,7 +38,7 @@ https://www.kaggle.com/datasets/lorresprz/calabi-yau-cicy-4-folds
 At the training ratio of 72%, our best performing individual model is CNN-LSTM-400, which obtains the accuracies of 99.74%, 98.07%, 95.19%, 81.01%, respectively, for $h^{(1,1)}, h^{(2,1)}, h^{(3,1)}, h^{(2,2)}$. 
 Our second best performing individual model is LSTM-448, which obtains the accuracy of 99.74%, 97.51%, 94.24%, and 78.63%. The third best-performing model is LSTM-424, with the accuracies of 99.56%, 97.07%, 93.19%, 74.47%. 
 
-The following ensembles of several top-performing models were formed. Some of these ensembles were found to outperform CNN-LSTM-400. In particular, Ensemble 2 attains the accuracies of of 99.8%, 98.4%, 95.8%, 83%.
+The following ensembles of several top-performing models were formed and listed below. 
 |          |        |
 | :-------------: |:-------------:| 
 |Ens-1| LSTM-448, CNN-LSTM-400 |
