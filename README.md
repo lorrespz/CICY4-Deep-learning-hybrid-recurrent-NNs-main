@@ -1,5 +1,7 @@
 # CICY4: Deep learning Hodge numbers with hybrid CNN-RNN and purely recurrent LSTM-based networks
 
+This is the GitHub repo for: https://arxiv.org/abs/2405.17406 
+
 ## Introduction
 
  In this work, I report the results of applying deep learning based on hybrid convolutional-recurrent and purely recurrent neural network architectures to the dataset of almost one million CICY4 manifolds to learn the four Hodge numbers $h^{(1,1)}, h^{(2,1)}, h^{(3,1)}, h^{(2,2)}$. In particular, I experimented 12 different neural network models, nine of which are convolutional-recurrent (CNN-RNN) hybrids with the RNN unit being either GRU (Gated Recurrent Unit) or Long Short Term Memory (LSTM). The remaining four models are purely recurrent LSTM-based networks. In total, I trained the following 12 models (the training was done fully on Kaggle using the P100 GPU unit) at 72\% training ratio. 
