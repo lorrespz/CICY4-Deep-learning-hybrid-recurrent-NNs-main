@@ -67,7 +67,7 @@ This is an experiment in which a single model (LSTM-448) was chosen to undergo t
 
 The performances (evaluated on the test set of the 72% dataset) of the 5 LSTM-448 models from the 5-fold CV training, the ensembles in the Table above, and 4 top performing models (CNN-LSTM-400, Ens-1, Ens-2, Ens-3) from the first round of training are shown in the figure below. The best performing model is LSTM-448-f1 (99.81%, 98.29%, 95.35%, 81.98%), and the best ensemble is Ens-0f1f4-CL400 (99.84%, 98.71%, 96.26%, 85.03%).
 
-<img width="750px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Train_CV_accuracies_all.png"  alt="Test CV accuracies" />
+<img width="800px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Test_CV_accuracies_all.png"  alt="TestCV accuracies" />
 
 ## Training results (80% data split)
 With the enlarged 80\% dataset, only the top three models, CNN-LSTM-400, LSTM-448, LSTM-424, from the first round of training (using 72\% data split) were retrained. Several ensembles of these three models (listed below) were formed as well. 
@@ -83,8 +83,7 @@ With the enlarged 80\% dataset, only the top three models, CNN-LSTM-400, LSTM-44
 The best performing model is LSTM-448 (99.85%, 98.66%, 96.26%, 84.77%), and the best ensemble is Ens-80-4 (99.90%, 99.03%, 97.07%87.34%).
 
 The accuracy rankings for all models, including the ensembles are shown in the Figure below.
-
-<img width="800px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Test80_accuracies_all.png"  alt="Test 80pc accuracies" />
+<img width="750px" src="https://github.com/lorrespz/CICY4-Deep-learning-hybrid-recurrent-NNs-main/blob/main/Results_p1_Figures/Test80_accuracies_all.png"  alt="Test 80pc accuracies" />
 
 ## Structure of the repository
 
