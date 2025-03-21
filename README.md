@@ -1,7 +1,7 @@
 # CICY4: Deep learning Hodge numbers with hybrid CNN-RNN and purely recurrent LSTM-based networks
 
-This is the GitHub repo for: https://arxiv.org/abs/2405.17406 (also for the published work 
-https://doi.org/10.1016/j.nuclphysb.2025.11683)
+This is the GitHub repo for: https://arxiv.org/abs/2405.17406 and 
+https://doi.org/10.1016/j.nuclphysb.2025.11683
 
 ## Introduction
 
